@@ -1,0 +1,19 @@
+name: video_watermark
+description: Simple Flutter package to add image as overlay in the video along with video trim option.
+homepage: https://github.com/ali-kaptanoglu/
+repository: https://github.com/ali-kaptanoglu/video_watermark
+
+version: 1.0.6
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ffmpeg_kit_flutter_min: 6.0.3
+  path_provider: ^2.1.1
+
+platforms:
+  android:
+  ios:
